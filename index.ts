@@ -54,7 +54,7 @@ interface Ifilms {
     production: string;
 }
 
-const movies: Ifilms = [
+const movies: Ifilms[] = [
     {
     id: 1,
     title: "Black Widow",
@@ -72,7 +72,7 @@ const movies: Ifilms = [
     imdbVotes: 121932,
     type: "movie",
     boxOffice: "$138,027,361",
-    production: "Marvel Studios",
+    production: "Marvel Studios"
     },
     {
     id: 2,
@@ -84,7 +84,8 @@ const movies: Ifilms = [
     director: "David Yates",
     writer: "Steve Kloves, J.K. Rowling",
     actors: ["Daniel Radcliffe", "Emma Watson", "RupertGrint"],
-    plot: "Harry, Ron, and Hermione search for Voldemort'sremaining Horcruxes in their effort to destroy the Dark Lord as thefinal battle rages on at Hogwarts.",country: "United Kingdom, United States",
+    plot: "Harry, Ron, and Hermione search for Voldemort'sremaining Horcruxes in their effort to destroy the Dark Lord as thefinal battle rages on at Hogwarts.",
+    country: "United Kingdom, United States",
     poster: "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
     imdbRating: 8.1,
     imdbVotes: 790377,
